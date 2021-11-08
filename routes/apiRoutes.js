@@ -19,7 +19,7 @@ router.post("/notes", function(req,res){
 
 router.delete("/notes/:id", function(req, res){
     let noteId = req.params.id
-    noteData = noteData.filter(note => note.id !=noteId);
+    noteData = noteData.filter(note => note.id != noteId);
     fs.writeFile("..db/db.json", JSON.stringify(noteData), function(err){console.log("Your note has been deleted!")});
     res.json(noteData);
 });
