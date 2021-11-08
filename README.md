@@ -2,7 +2,7 @@
   ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
-    ![Screen-11-7-2021_102220_PM](https://user-images.githubusercontent.com/88077451/140680261-0eeb16b7-4408-48be-aaad-9dcf29c28804.png)
+  ![Screen-11-7-2021_102220_PM](https://user-images.githubusercontent.com/88077451/140680348-64d0c9f5-2351-4dac-8dd5-9c2d475eb3cd.png)
   This app allows the user to add, save, and delete notes.
   ## Table of Contents
   * [Installation](#installation)
