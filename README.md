@@ -1,9 +1,8 @@
 # Note Taker App
   ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
-  
- C:\Users\a6942\Desktop\note-taker\Capture.png
 
   ## Description 
+  ![Screen-11-7-2021_102220_PM](https://user-images.githubusercontent.com/88077451/140680348-64d0c9f5-2351-4dac-8dd5-9c2d475eb3cd.png)
   This app allows the user to add, save, and delete notes.
   ## Table of Contents
   * [Installation](#installation)
@@ -12,9 +11,9 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-  
+
   ## Installation 
-  npm install
+  https://intense-forest-57271.herokuapp.com/
   ## Usage 
   The user can type in the text field and enter a new title. Then the user adds a description of their note. Once the user is done writing their note they can save it using the save button in the upper right hand corner. If the user no long needs the note they can click the red trash can to delete it.
   ## License 
