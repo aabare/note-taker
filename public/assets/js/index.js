@@ -108,7 +108,7 @@ const renderNoteList = (notes) => {
   const noteListItems = [];
 
   // Returns HTML element with or without a delete button
-  // Unless wuthDeleteButton argument is false
+  // Unless withDeleteButton argument is false
   const create$li = (text, withDeleteButton = true) => {
     const $li = $("<li class='list-group-item'>");
     const $span = $("<span>").text(text);
