@@ -101,7 +101,6 @@ const handleRenderSaveBtn = function () {
   }
 };
 
-
 // Render the list of note titles
 const renderNoteList = (notes) => {
   $noteList.empty();
@@ -148,4 +147,5 @@ $noteList.on("click", ".delete-note", handleNoteDelete);
 $noteTitle.on("keyup", handleRenderSaveBtn);
 $noteText.on("keyup", handleRenderSaveBtn);
 
+//Gets and renders intiail notes
 getAndRenderNotes();

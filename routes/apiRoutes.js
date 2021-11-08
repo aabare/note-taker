@@ -10,9 +10,7 @@ router.post("/notes", function(req,res){
     let newNote = req.body
     newNote.id = Math.round(Math.random()*1000000);
     noteData.push(newNote);
-    fs.writeFile("db/db.json", JSON.stringify(noteData), function(err){
-        console.log(err)
-    })
+    fs.writeFile("db/db.json", JSON.stringify(noteData), function(err){console.log(err)})
     console.log(newNote);
     res.json(noteData);
 });
